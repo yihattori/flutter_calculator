@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Generated plots. The documentation figures under docs/img/ are committed, because
+# README.md and the usage guide reference them.
+*.png
+!docs/img/
+!docs/img/*.png
+
+# The usage guide is built from docs/, not committed.
+flutter_calculator_usage_guide.pdf

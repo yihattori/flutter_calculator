@@ -1,0 +1,4 @@
+# Never apply line-ending conversion to binary artifacts (a CRLF checkout would
+# corrupt the PDF streams).
+*.pdf binary
+*.png binary
