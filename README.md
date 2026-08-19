@@ -1,3 +1,13 @@
+Disclaimer: This repository contains the supporting computational framework developed for my MSc dissertation. The aeroelastic methodology and model architecture were developed by the author. Implementation of portions of the Python framework was vibe-coded, with validity tests conducted by me. The repository is provided to facilitate reproducibility of the dissertation results.
+
+Structural model based on analytical flutter calculation techniques from Wright & Cooper: Introduction to Aeroelasticity and Loads, 2nd Ed. (2015). Order-of-magnitude validity verified by the author. Does not predict exact flutter margins for existing aircraft - but suited for analytical work, comparative studies, etc. Model limitations are listed below in the README. 
+
+PanelAero provides the DLM aerodynamic calculations; this repository provides the structural model, aeroelastic coupling, calibration, flutter solution, post-processing, and analysis infrastructure used to interface with it.
+
+Not associated with DLR or any professional institution. I'm just a guy with a BEng in Aerospace Engineering, hopefully a MSc soon too. 
+
+NOT for professional use, certification, etc. If you're a student, amateur hobbyist, etc. and want to play with the code, do whatever. If you crash your model plane or something, don't sue me. 
+
 # Flutter Calculator
 
 Predict the **flutter speed of a cantilever wing** from a handful of physically
